@@ -1,0 +1,53 @@
+body {
+    background-image: url("d4b30ea3a48f2cd7abff3b8072f6b5b9.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: 'Arial', sans-serif; 
+    color:rgb(255, 255, 255)
+}
+
+.my_information {
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 5px 2px #292924;
+    padding: 8px 12px;
+    justify-self: center;
+}
+
+#miau {
+    text-align: center;
+}
+
+#image_added {
+    max-width: 100em;
+    max-height: 19em;
+}
+
+#image_add {
+    justify-self: center;
+}
+
+.knowledge_table {
+    margin: 0 auto;
+    border-collapse: collapse; 
+    margin-top: 15px;
+}
+
+.knowledge_table .headers {
+    background-color: #333; 
+    font-weight: bold; 
+}
+
+.knowledge_table tr {
+    border: 2px solid #fff; 
+    padding: 8px;
+    text-align: center;
+}
+
+.knowledge_table td {
+    border: 2px solid #fff; 
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: #fff; 
+}
