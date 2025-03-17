@@ -1,17 +1,36 @@
 body {
-    background-image: url("d4b30ea3a48f2cd7abff3b8072f6b5b9.jpg"); 
-    background-size: cover; 
-    background-position: center; 
-    font-family: 'Arial', sans-serif; 
-    color:rgb(255, 255, 255)
+    background-image: url("d4b30ea3a48f2cd7abff3b8072f6b5b9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.all_info {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
 }
 
 .my_information {
-    width: 15em;
+    width: 100%;
+    max-width: 500px;
+    min-width: 280px; 
     border: 1px solid #333;
     box-shadow: 8px 5px 2px #292924;
-    padding: 8px 12px;
-    justify-self: center;
+    padding: 12px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 #miau {
@@ -19,35 +38,46 @@ body {
 }
 
 #image_added {
-    max-width: 100em;
-    max-height: 19em;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
 }
 
 #image_add {
-    justify-self: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .knowledge_table {
-    margin: 0 auto;
-    border-collapse: collapse; 
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .knowledge_table .headers {
-    background-color: #333; 
-    font-weight: bold; 
+    background-color: #333;
+    font-weight: bold;
 }
 
 .knowledge_table tr {
-    border: 2px solid #fff; 
+    border: 2px solid #fff;
     padding: 8px;
     text-align: center;
 }
 
 .knowledge_table td {
-    border: 2px solid #fff; 
+    border: 2px solid #fff;
     padding: 8px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3); 
-    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+#input_box{
+    margin-bottom: 15px;
 }
