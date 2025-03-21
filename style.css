@@ -7,8 +7,9 @@ body {
     min-height: 100vh;
     color: rgb(255, 255, 255);
     display: block;
-    margin: 0;
+    margin: 0%;
     padding: 0;
+
 }
 
 .all_info {
@@ -38,12 +39,13 @@ body {
 }
 
 #image_added {
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
     max-height: 100%;
     height: auto;
     display: block;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 #image_add {
@@ -53,13 +55,13 @@ body {
 
 .knowledge_table {
     width: 100%;
-    max-width: 800px;
+    max-width: 500px;
     border-collapse: collapse;
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.knowledge_table .headers {
+.knowledge_table #headers{
     background-color: #333;
     font-weight: bold;
 }
@@ -70,7 +72,7 @@ body {
     text-align: center;
 }
 
-.knowledge_table td {
+.knowledge_table th {
     border: 2px solid #fff;
     padding: 8px;
     text-align: center;
@@ -80,4 +82,19 @@ body {
 
 #input_box{
     margin-bottom: 15px;
+}
+
+.accordion-button{
+    display: flex;
+}
+
+
+.card {
+    margin-top: 20px;
+}
+
+.accordion-button {
+    background-color: inherit; 
+    color: inherit;
+    border: none; 
 }
